@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — Brisa Mail</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 680px; margin: 0 auto; padding: 48px 20px; }
+  h1 { font-size: 28px; }
+  h2 { font-size: 20px; margin-top: 32px; }
+  .muted { opacity: .7; }
+</style>
+</head>
+<body>
+  <h1>Política de Privacidade — Brisa Mail</h1>
+  <p class="muted">Última atualização: 16 de novembro de 2026.</p>
+
+  <h2>Resumo</h2>
+  <p>O Brisa Mail é um aplicativo de email que roda localmente no computador do usuário.
+     Ele não possui servidores próprios e não coleta, armazena nem transmite seus dados para o desenvolvedor.</p>
+
+  <h2>Quais dados o app acessa</h2>
+  <p>Para funcionar como cliente de email, o Brisa Mail acessa o conteúdo das suas mensagens,
+     remetentes, destinatários e pastas da conta que você conecta. No caso do Gmail, o acesso é
+     feito pelo login oficial do Google (OAuth 2.0), usando o escopo necessário para ler e enviar email.</p>
+
+  <h2>Como os dados são usados</h2>
+  <p>Os dados das suas mensagens são usados no seu dispositivo, para exibir, organizar,
+     buscar, enviar e responder emails. Nenhum dado é usado para publicidade, vendido ou
+     compartilhado com terceiros para outros fins. Os únicos envios a terceiros são estes:</p>
+  <ul>
+    <li><strong>IA sob demanda (Anthropic/Claude):</strong> resumir, redigir e revisar enviam o conteúdo
+        do email ou rascunho em questão somente quando você aciona a função, apenas para gerar o texto pedido.</li>
+    <li><strong>Triagem automática de importantes (Anthropic/Claude):</strong> se ligada, envia apenas o remetente
+        e o assunto dos emails novos, nunca o corpo, para classificá-los. Pode ser desligada em Ajustes.</li>
+    <li><strong>Fotos dos remetentes:</strong> o app consulta o Gravatar com um hash (SHA-256) do endereço do
+        remetente e o serviço de ícones do DuckDuckGo com o domínio do remetente.</li>
+    <li><strong>Imagens dentro dos emails:</strong> são carregadas dos servidores indicados pelo próprio email,
+        como em qualquer cliente de email.</li>
+  </ul>
+
+  <h2>Onde os dados ficam</h2>
+  <p>Credenciais e tokens de acesso ficam cifrados com o Keychain do macOS, no seu computador.
+     Para abrir mais rápido, o app guarda no computador uma cópia da lista de mensagens (remetente,
+     assunto, data e marcações; nunca o corpo). O app não envia esses dados para o desenvolvedor.</p>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>O uso das informações recebidas das APIs do Google pelo Brisa Mail obedece à
+     <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>,
+     incluindo os requisitos de Uso Limitado (Limited Use).</p>
+
+  <h2>Exclusão de dados</h2>
+  <p>Para remover o acesso, saia da conta no app (o que apaga as credenciais e a cópia local da lista) e/ou
+     revogue o acesso do Brisa Mail em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+  <h2>Contato</h2>
+  <p>Dúvidas sobre esta política: brunoprimo@gmail.com.</p>
+</body>
+</html>
